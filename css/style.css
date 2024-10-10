@@ -1,0 +1,692 @@
+/* UNIVERSA */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+header img {
+    height: 40px;
+}
+
+.bg-body-nav{
+    background-color: rgb(230, 232, 226);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.boton-nav {
+    border: 1px solid black;
+    background-color: rgb(230, 232, 226);
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px ;
+    border-radius: 5px;
+}
+
+.boton-nav:hover {
+    background-color: white;
+}
+
+.collapse  {
+    font-size: 15px;
+}
+
+/* FOOTER */
+footer{
+    height: 180px;
+    background-color: rgb(230, 232, 226);
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+footer h2{
+    font-size: 20px;
+}
+
+footer a{
+    font-size: 15px;
+    color: black;
+}
+
+
+.seguinos {
+    display: flex;
+    flex-direction: column;
+}
+
+.seguinos a img{
+    width:20px;
+}
+
+.metodos-pago{
+    width: 250px;
+}
+
+.metodos-pago h2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.metodos-pago img{
+    width: 50px;
+}
+
+.tarjetas{
+    display: flex;
+    justify-content:space-evenly
+}
+
+
+/*! INDEX */
+
+/* HERO */
+.hero{
+    text-align: center;
+    height: 80vh;
+    background-image: url("../img/banner.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.boton {
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px ;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color:rgb(230, 232, 226);
+    border: 0px;
+}
+
+/* SEC 1 */
+
+.productos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.coleccion {
+    width: 50%;
+    height: 500px;
+    background-image: url("../img/coleccionfinal.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.coleccion a{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+
+.accesorios{
+    width: 50%;
+    height: 500px;
+    background-image: url("../img/accesoriosfinal.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.accesorios a{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+
+
+.fixed{
+    position: fixed;
+    bottom: 100px;
+    right: 60px
+}
+
+.fixed a img{
+    width: 30px;
+
+}
+
+
+/* SEC 2 */
+
+.lacy{
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.informacion-lacy{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.informacion-lacy h2{
+    font-size:30px ;
+}
+
+.informacion-lacy p{
+    font-size: 14px;
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+
+
+.img-lacy{
+    height: 35vh;
+    width: 50%;
+    display: flex;
+    justify-content:center;
+}
+
+.img-lacy img{
+    margin: 10px;
+}
+
+/* SEC 3 */
+.about-us {
+    text-align: center;
+    height: 60vh;
+    background-image: url("../img/indnac.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: white;
+}
+
+.boton-about-us {
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px ;
+    border-radius: 5px;
+}
+
+.boton-about-us:hover {
+    background-color:rgb(230, 232, 226);
+    border: 0px;
+    color: black;
+}
+
+
+/*! COLECCION */
+
+
+.ecommerce h2{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.cartas-producto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cartas-producto div{
+    width: 250px;
+    height: 480px;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+
+.cartas-producto div h3{
+    font-size: 22px;
+    margin: 15px;
+}
+
+.cartas-producto div a{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 10px;
+    font-size: 20px ;
+    border-radius: 5px;
+}
+
+.cartas-producto div img {
+    width: 250px;
+}
+
+
+
+/*! ABOUT US */
+
+.desfile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.desfile h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.desfile iframe{
+    width: 80%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.info-flora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: rgb(238, 238, 228);
+    height: 30vh;
+}
+
+.info-flora h2{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.info-flora h3{
+    font-size: 15px;
+    font-weight: lighter;
+    font-weight: 100;
+}
+
+.info-flora p{
+    width: 820px;
+    font-size: 20px;
+}
+
+.detalles{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.detalles img{
+    width: 420px; 
+}
+
+.detalles div h2{
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 900;
+}
+
+.detalles div h3{
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: 100;
+}
+
+
+/*! MEDIA QUERY INDEX*/
+
+@media screen and (max-width:1021px){
+    footer{
+        height: 360px;
+        display: grid;
+        grid-template-areas: 
+        "politicas seguinos"
+        "formulario metodos-pago"
+        ;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+
+@media screen and (max-width:1010px){
+    .lacy{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-lacy{
+        height: 400px;
+        display: flex;
+        justify-content:center;
+    }
+    
+    .img-lacy img{
+        margin: 20px;
+        width: 250px;
+    }
+
+}
+
+
+@media screen and (max-width:860px){
+    .productos{
+        display: flex;
+        flex-direction: column; 
+    }
+    .accesorios{
+        width: 100%;}
+
+    .coleccion {
+    width: 100%;
+    }
+}
+
+@media screen and (max-width:859px){
+    .formulario {
+        display: grid;
+        grid-template-areas: 
+        "label label"
+        "input input";
+        grid-template-columns: 2fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+
+@media screen and (max-width:822px){
+    .lacy{
+        height: 110vh;
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-lacy{
+        height: 400px;
+        display: flex;
+        justify-content:center;
+    }
+}
+@media screen and (max-width:620px){
+    .lacy{
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-lacy{
+        height: 400px;
+        display: flex;
+        justify-content:center;
+    }
+}
+
+@media screen and (max-width:550px){
+    .lacy{
+        height: 130vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .img-lacy{
+        display: flex;
+        justify-content:center;
+        margin: 0px;
+    }
+
+    .informacion-lacy{
+        width: 80%;
+    }
+
+    .informacion-lacy p{
+        margin-bottom: 5px;
+    }
+
+.img-lacy img{
+    width: 80%;
+    height: 330px;
+    margin: 5px;
+}
+
+footer{
+    height: 380px;
+}
+
+.metodos-pago{
+    width: 150px;
+}
+}
+
+
+@media screen and (max-width:509px){
+    footer{
+        height: 380px;
+    }
+
+    .metodos-pago{
+        width: 150px;
+    }
+    .lacy{
+        height: 150vh;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .informacion-lacy{
+        height: 500px;
+        margin: 0px;
+    }
+
+    
+
+    .img-lacy{
+        height: 70vh;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .img-lacy img{
+        width: 170px;
+        margin: 5px;
+        margin-top: 10px;
+    }
+
+}
+
+
+
+/*! MEDIA QUERY ABOUT US*/
+
+@media screen and (max-width:1061px){
+    .detalles img{
+        width: 320px; 
+    }
+}    
+
+@media screen and (max-width:945px){
+    .detalles{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .info-flora {
+        height: 35vh;
+    }
+
+    .detalles img{
+        width: 420px; 
+        margin: 20px;
+    }    
+
+    .desfile iframe{
+        width: 80%;
+        height: 600px;
+    }   
+    
+    .detalles h2{
+        display: none;
+    }
+
+    .detalles h3{
+        display: none;
+    }
+
+}    
+
+
+@media screen and (max-width:845px){
+    .info-flora {
+        height: 40vh;
+    }
+
+    .info-flora p{
+        width: 80%;
+    }
+
+    .detalles h2{
+        display: none;
+    }
+
+    .detalles h3{
+        display: none;
+    }
+}
+
+@media screen and (max-width:646px){
+    .info-flora {
+        height: 45vh;
+    }
+}
+
+.desfile iframe{
+    width: 80%;
+    height: 500px;
+}   
+
+@media screen and (max-width:520px){
+    .info-flora {
+        height: 50vh;
+    }
+
+    .detalles h2{
+        display: none;
+    }
+
+    .detalles h3{
+        display: none;
+    }
+}
+
+@media screen and (max-width:471px){
+    .info-flora {
+        height: 60vh;
+    }
+
+    .detalles h2{
+        display: none;
+    }
+
+    .detalles h3{
+        display: none;
+    }
+}
+
+@media screen and (max-width:441px){
+    .info-flora {
+        height: 60vh;
+    }
+
+    .detalles img{
+        width: 300px; 
+    }
+
+    .desfile iframe{
+        width: 300px;
+        height: 400px;
+    }
+
+    .detalles h2{
+        display: none;
+    }
+
+    .detalles h3{
+        display: none;
+    }
+
+    .info-flora p{
+        font-size: 17px;
+    }
+
+}
