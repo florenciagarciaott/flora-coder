@@ -1,0 +1,279 @@
+/*! GENERAL*/
+@media screen and (max-width:1021px){
+    footer{
+        height: 360px;
+        display: grid;
+        grid-template-areas: 
+        "politicas seguinos"
+        "formulario metodos-pago"
+        ;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width:859px){
+    footer{
+        .formulario {
+            display: grid;
+            grid-template-areas: 
+            "label label"
+            "input input";
+            grid-template-columns: 2fr;
+            grid-template-rows: 1fr 1fr;
+        }
+    }
+}
+
+
+/*! INDEX*/
+@media screen and (max-width:1010px){
+    .lacy{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .img-lacy{
+            height: 400px;
+            display: flex;
+            justify-content:center;
+            img{
+                margin: 20px;
+                width: 250px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:860px){
+    .productos{
+        display: flex;
+        flex-direction: column; 
+        .coleccion {
+            width: 100%;
+            }
+        .accesorios{
+            width: 100%;}
+    }
+}
+
+@media screen and (max-width:918px){
+    .lacy{
+        height: 110vh;
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        .img-lacy{
+            height: 400px;
+            display: flex;
+            justify-content:center;
+        }
+    }
+}
+
+@media screen and (max-width:805px){
+    .lacy{
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .img-lacy{
+            height: 400px;
+            display: flex;
+            justify-content:center;
+        }
+    }
+}
+
+@media screen and (max-width:639px){
+    .lacy{
+        height: 130vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+        .img-lacy{
+            display: flex;
+            justify-content:center;
+            margin: 0px;
+            img{
+                width: 80%;
+                height: 330px;
+                margin: 5px;
+            }
+        }
+        .informacion-lacy{
+            width: 80%;
+            p { 
+                margin-bottom: 5px;
+            }
+        }
+        }
+    }
+
+    footer{
+        height: 380px;
+        .metodos-pago{
+            width: 150px;
+        }
+    }
+
+@media screen and (max-width:509px){
+    footer{
+        height: 380px;
+        .metodos-pago{
+            width: 150px;
+        }
+    }
+
+    .lacy {
+        height: 150vh;
+        align-items: center;
+        margin: 0px;
+        .informacion-lacy{
+            height: 350px;
+            margin: 0px;
+        }
+        .img-lacy{
+            height: 70vh;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                width: 170px;
+                margin: 5px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+
+/*! ABOUT US*/
+
+@media screen and (max-width:1061px){
+    .detalles{
+        img{
+            width: 320px; 
+        }
+    }
+}    
+
+@media screen and (max-width:945px){
+    .detalles{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 20px;
+        img{
+            width: 420px; 
+            margin: 20px;
+        }
+        h2{
+            display: none;
+        }
+        h3{
+            display: none;
+        }
+    }
+
+    .info-flora {
+        height: 35vh;
+    }
+    .desfile{
+        iframe{
+            width: 80%;
+            height: 600px;
+        }
+    }
+}
+
+@media screen and (max-width:845px){
+    .info-flora {
+        height: 40vh;
+        p{
+            width: 80%;
+        }
+    }
+    .detalles{
+        h2{
+            display: none;
+        }
+        h3{
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width:646px){
+    .info-flora {
+        height: 45vh;
+    }
+
+    .desfile{
+        iframe{
+            width: 80%;
+            height: 500px;
+        }
+    }
+}
+
+@media screen and (max-width:520px){
+    .info-flora {
+        height: 50vh;
+    }
+    .detalles{
+        h2{
+            display: none;
+        }
+        h3{
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width:471px){
+    .info-flora {
+        height: 60vh;
+    }
+    .detalles{
+        h2{
+            display: none;
+        }
+        h3{
+            display: none;
+        }
+    }
+}
+
+
+@media screen and (max-width:441px){
+    .info-flora {
+        height: 60vh;
+        p{
+            font-size: 17px;
+        }
+    }
+    .detalles{
+        img{
+            width: 300px; 
+        }
+        h2{
+            display: none;
+        }
+        h3{
+            display: none;
+        }
+    }
+    .desfile{
+        iframe{
+            width: 300px;
+            height: 400px;
+        }
+    }
+}

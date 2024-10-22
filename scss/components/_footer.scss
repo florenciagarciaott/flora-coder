@@ -1,0 +1,37 @@
+footer{
+    height: 180px;
+    background-color:$color-principal;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+    div{
+        h2{
+            font-size: 20px; 
+        }
+        a{
+            font-size: 15px;
+            color: $color-secundario
+        }
+    }
+    .seguinos {
+        display: flex;
+        flex-direction: column;
+        a{
+            img{
+                width:20px;
+                margin-right: 5px;
+            }
+        }
+    }
+    .metodos-pago{
+        width: 250px;
+        h2{
+            display: flex;
+        justify-content: center;
+        }
+        img{
+            width: 50px;
+        }
+    }
+}

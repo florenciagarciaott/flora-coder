@@ -74,6 +74,7 @@ footer a{
 
 .seguinos a img{
     width:20px;
+    margin-right: 5px;
 }
 
 .metodos-pago{
@@ -276,7 +277,7 @@ footer a{
 }
 
 
-/*! COLECCION */
+/*! COLECCION - ACCESORIOS - SALE*/
 
 
 .ecommerce h2{
@@ -293,7 +294,7 @@ footer a{
 }
 
 .cartas-producto div{
-    width: 250px;
+    width: 350px;
     height: 480px;
     text-align: center;
     margin: 10px;
@@ -306,12 +307,20 @@ footer a{
 }
 
 .cartas-producto div a{
-    background-color: white;
     border: 1px solid black;
-    color: black;
+    background-color: white;
     padding: 10px;
-    font-size: 20px ;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px ;
     border-radius: 5px;
+    color: black;
+}
+
+
+.cartas-producto div a:hover{
+    background-color: rgb(230, 232, 226);
+    border: 0px;
 }
 
 .cartas-producto div img {
@@ -360,11 +369,6 @@ footer a{
     margin-bottom: 5px;
 }
 
-.info-flora h3{
-    font-size: 15px;
-    font-weight: lighter;
-    font-weight: 100;
-}
 
 .info-flora p{
     width: 820px;
@@ -392,6 +396,7 @@ footer a{
     font-weight: lighter;
     font-weight: 100;
 }
+
 
 
 /*! MEDIA QUERY INDEX*/
@@ -458,7 +463,6 @@ footer a{
     }
 }
 
-
 @media screen and (max-width:822px){
     .lacy{
         height: 110vh;
@@ -473,6 +477,7 @@ footer a{
         justify-content:center;
     }
 }
+
 @media screen and (max-width:620px){
     .lacy{
         height: 120vh;
@@ -533,6 +538,7 @@ footer{
     .metodos-pago{
         width: 150px;
     }
+
     .lacy{
         height: 150vh;
         align-items: center;
@@ -561,7 +567,6 @@ footer{
     }
 
 }
-
 
 
 /*! MEDIA QUERY ABOUT US*/
@@ -604,7 +609,6 @@ footer{
     }
 
 }    
-
 
 @media screen and (max-width:845px){
     .info-flora {
@@ -662,6 +666,7 @@ footer{
         display: none;
     }
 }
+
 
 @media screen and (max-width:441px){
     .info-flora {

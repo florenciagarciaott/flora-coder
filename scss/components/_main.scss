@@ -1,0 +1,247 @@
+/* INDEX */
+main{
+    .hero{
+        text-align: center;
+        height: 80vh;
+        background-image: url("../img/banner.jpg");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            font-size: 30px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: $color-secundario;
+        }
+        }
+    }
+
+/* SEC 1 */
+.productos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    .coleccion{
+        width: 50%;
+        height: 500px;
+        background-image: url("../img/coleccionfinal.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        a{
+            font-size: 25px;
+            font-weight: 600;
+            color: $color-secundario;
+        }
+    }
+    .accesorios{
+        width: 50%;
+        height: 500px;
+        background-image: url("../img/accesoriosfinal.png");
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        a{
+            font-size: 25px;
+        font-weight: 600;
+        color: black;
+        }
+    }
+    .fixed{
+        a{
+            img{
+                width: 30px;
+            }
+        }
+        position: fixed;
+        bottom: 100px;
+        right: 60px
+    }
+}
+
+/* SEC 2 */
+.lacy{
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+    .informacion-lacy{
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        h2{
+            font-size:30px ;
+        }
+        p{
+            font-size: 14px;
+            margin-bottom: 15px;
+            width: 90%;
+        }
+
+    }
+    .img-lacy {
+        height: 35vh;
+        width: 50%;
+        display: flex;
+        justify-content:center;
+        img{
+            margin: 10px;
+        }
+    }
+    }
+
+    /* SEC 3 */
+    .about-us{
+        text-align: center;
+        height: 60vh;
+        background-image: url("../img/indnac.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+            font-size: 30px;
+        margin-bottom: 10px;
+        font-weight: 500;
+        color: $color-terciario;
+
+        }
+        .boton-about-us{
+            color: $color-terciario;
+            border: 1px solid $color-terciario;
+            padding: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            font-size: 20px ;
+            border-radius: 5px;
+            &:hover{
+                background-color:$color-principal;
+                border: 0px;
+                color: $color-secundario;
+            }
+        }
+    }
+
+    /*! COLECCION - ACCESORIOS - SALE*/
+    .ecommerce{
+        h2{
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+        }
+        .cartas-producto{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            div{
+                width: 350px;
+                height: 480px;
+                text-align: center;
+                margin: 10px;
+                margin-bottom: 25px;
+                img{
+                    width: 250px;
+                }
+                h3{
+                    font-size: 22px;
+                    margin: 15px;
+                }
+                a{
+                    &:hover{
+                        background-color: rgb(230, 232, 226);
+                        border: 0px;
+                    }
+                    border: 1px solid $color-secundario;
+                    background-color: $color-terciario;
+                    padding: 10px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    font-size: 15px ;
+                    border-radius: 5px;
+                    color: $color-secundario
+                    }
+                }
+            }
+        }
+        
+        .desfile{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h2{
+                margin-top: 15px;
+                margin-bottom: 15px;
+                display: flex;
+                justify-content: center;
+            }
+            iframe{
+                width: 80%;
+                height: 650px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        .info-flora{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            background-color: $color-principal;
+            height: 30vh;
+            h2{
+                margin-top: 15px;
+                margin-bottom: 5px;
+            }
+            p{
+                width: 820px;
+                font-size: 20px;
+            }
+        }
+
+        .detalles{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            div{
+                h2{
+                    font-size: 30px;
+                    font-style: oblique;
+                    font-weight: 900;
+                }
+                h3{
+                    font-size: 20px;
+                    font-weight: lighter;
+                    font-weight: 100;
+                }
+            }
+            img{
+                width: 420px; 
+            }
+        }
+

@@ -1,0 +1,467 @@
+/*VARIABLES*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 1; }
+  header img {
+    height: 40px; }
+
+.bg-body-nav {
+  background-color: #e6e8e2;
+  position: sticky;
+  top: 0px;
+  z-index: 1; }
+
+.boton-nav {
+  border: 1px solid black;
+  background-color: #e6e8e2;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  border-radius: 5px; }
+
+.boton-nav:hover {
+  background-color: white; }
+
+.collapse {
+  font-size: 15px; }
+
+.tarjetas {
+  display: flex;
+  justify-content: space-evenly; }
+
+.boton {
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  border-radius: 5px; }
+  .boton:hover {
+    background-color: #e6e8e2;
+    border: 0px; }
+
+/* INDEX */
+main .hero {
+  text-align: center;
+  height: 80vh;
+  background-image: url("../img/banner.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  main .hero h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: black; }
+
+/* SEC 1 */
+.productos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px; }
+  .productos .coleccion {
+    width: 50%;
+    height: 500px;
+    background-image: url("../img/coleccionfinal.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .productos .coleccion a {
+      font-size: 25px;
+      font-weight: 600;
+      color: black; }
+  .productos .accesorios {
+    width: 50%;
+    height: 500px;
+    background-image: url("../img/accesoriosfinal.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .productos .accesorios a {
+      font-size: 25px;
+      font-weight: 600;
+      color: black; }
+  .productos .fixed {
+    position: fixed;
+    bottom: 100px;
+    right: 60px; }
+    .productos .fixed a img {
+      width: 30px; }
+
+/* SEC 2 */
+.lacy {
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 25px; }
+  .lacy .informacion-lacy {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%; }
+    .lacy .informacion-lacy h2 {
+      font-size: 30px; }
+    .lacy .informacion-lacy p {
+      font-size: 14px;
+      margin-bottom: 15px;
+      width: 90%; }
+  .lacy .img-lacy {
+    height: 35vh;
+    width: 50%;
+    display: flex;
+    justify-content: center; }
+    .lacy .img-lacy img {
+      margin: 10px; }
+
+/* SEC 3 */
+.about-us {
+  text-align: center;
+  height: 60vh;
+  background-image: url("../img/indnac.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .about-us h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: white; }
+  .about-us .boton-about-us {
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    border-radius: 5px; }
+    .about-us .boton-about-us:hover {
+      background-color: #e6e8e2;
+      border: 0px;
+      color: black; }
+
+/*! COLECCION - ACCESORIOS - SALE*/
+.ecommerce h2 {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center; }
+
+.ecommerce .cartas-producto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  .ecommerce .cartas-producto div {
+    width: 350px;
+    height: 480px;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 25px; }
+    .ecommerce .cartas-producto div img {
+      width: 250px; }
+    .ecommerce .cartas-producto div h3 {
+      font-size: 22px;
+      margin: 15px; }
+    .ecommerce .cartas-producto div a {
+      border: 1px solid black;
+      background-color: white;
+      padding: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 15px;
+      border-radius: 5px;
+      color: black; }
+      .ecommerce .cartas-producto div a:hover {
+        background-color: #e6e8e2;
+        border: 0px; }
+
+.desfile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .desfile h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center; }
+  .desfile iframe {
+    width: 80%;
+    height: 650px;
+    display: flex;
+    justify-content: center; }
+
+.info-flora {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #e6e8e2;
+  height: 30vh; }
+  .info-flora h2 {
+    margin-top: 15px;
+    margin-bottom: 5px; }
+  .info-flora p {
+    width: 820px;
+    font-size: 20px; }
+
+.detalles {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .detalles div h2 {
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 900; }
+  .detalles div h3 {
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: 100; }
+  .detalles img {
+    width: 420px; }
+
+footer {
+  height: 180px;
+  background-color: #e6e8e2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+  align-items: center;
+  justify-items: center; }
+  footer div h2 {
+    font-size: 20px; }
+  footer div a {
+    font-size: 15px;
+    color: black; }
+  footer .seguinos {
+    display: flex;
+    flex-direction: column; }
+    footer .seguinos a img {
+      width: 20px;
+      margin-right: 5px; }
+  footer .metodos-pago {
+    width: 250px; }
+    footer .metodos-pago h2 {
+      display: flex;
+      justify-content: center; }
+    footer .metodos-pago img {
+      width: 50px; }
+
+/*! GENERAL*/
+@media screen and (max-width: 1021px) {
+  footer {
+    height: 360px;
+    display: grid;
+    grid-template-areas: "politicas seguinos" "formulario metodos-pago";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center; } }
+
+@media screen and (max-width: 859px) {
+  footer .formulario {
+    display: grid;
+    grid-template-areas: "label label" "input input";
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr 1fr; } }
+
+/*! INDEX*/
+@media screen and (max-width: 1010px) {
+  .lacy {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .lacy .img-lacy {
+      height: 400px;
+      display: flex;
+      justify-content: center; }
+      .lacy .img-lacy img {
+        margin: 20px;
+        width: 250px; } }
+
+@media screen and (max-width: 860px) {
+  .productos {
+    display: flex;
+    flex-direction: column; }
+    .productos .coleccion {
+      width: 100%; }
+    .productos .accesorios {
+      width: 100%; } }
+
+@media screen and (max-width: 918px) {
+  .lacy {
+    height: 110vh;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center; }
+    .lacy .img-lacy {
+      height: 400px;
+      display: flex;
+      justify-content: center; } }
+
+@media screen and (max-width: 805px) {
+  .lacy {
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .lacy .img-lacy {
+      height: 400px;
+      display: flex;
+      justify-content: center; } }
+
+@media screen and (max-width: 639px) {
+  .lacy {
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px; }
+    .lacy .img-lacy {
+      display: flex;
+      justify-content: center;
+      margin: 0px; }
+      .lacy .img-lacy img {
+        width: 80%;
+        height: 330px;
+        margin: 5px; }
+    .lacy .informacion-lacy {
+      width: 80%; }
+      .lacy .informacion-lacy p {
+        margin-bottom: 5px; } }
+
+footer {
+  height: 380px; }
+  footer .metodos-pago {
+    width: 150px; }
+
+@media screen and (max-width: 509px) {
+  footer {
+    height: 380px; }
+    footer .metodos-pago {
+      width: 150px; }
+  .lacy {
+    height: 150vh;
+    align-items: center;
+    margin: 0px; }
+    .lacy .informacion-lacy {
+      height: 350px;
+      margin: 0px; }
+    .lacy .img-lacy {
+      height: 70vh;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .lacy .img-lacy img {
+        width: 170px;
+        margin: 5px;
+        margin-top: 10px; } }
+
+/*! ABOUT US*/
+@media screen and (max-width: 1061px) {
+  .detalles img {
+    width: 320px; } }
+
+@media screen and (max-width: 945px) {
+  .detalles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px; }
+    .detalles img {
+      width: 420px;
+      margin: 20px; }
+    .detalles h2 {
+      display: none; }
+    .detalles h3 {
+      display: none; }
+  .info-flora {
+    height: 35vh; }
+  .desfile iframe {
+    width: 80%;
+    height: 600px; } }
+
+@media screen and (max-width: 845px) {
+  .info-flora {
+    height: 40vh; }
+    .info-flora p {
+      width: 80%; }
+  .detalles h2 {
+    display: none; }
+  .detalles h3 {
+    display: none; } }
+
+@media screen and (max-width: 646px) {
+  .info-flora {
+    height: 45vh; }
+  .desfile iframe {
+    width: 80%;
+    height: 500px; } }
+
+@media screen and (max-width: 520px) {
+  .info-flora {
+    height: 50vh; }
+  .detalles h2 {
+    display: none; }
+  .detalles h3 {
+    display: none; } }
+
+@media screen and (max-width: 471px) {
+  .info-flora {
+    height: 60vh; }
+  .detalles h2 {
+    display: none; }
+  .detalles h3 {
+    display: none; } }
+
+@media screen and (max-width: 441px) {
+  .info-flora {
+    height: 60vh; }
+    .info-flora p {
+      font-size: 17px; }
+  .detalles img {
+    width: 300px; }
+  .detalles h2 {
+    display: none; }
+  .detalles h3 {
+    display: none; }
+  .desfile iframe {
+    width: 300px;
+    height: 400px; } }
