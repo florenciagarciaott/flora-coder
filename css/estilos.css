@@ -291,7 +291,7 @@ footer {
     align-items: center;
     justify-items: center; } }
 
-@media screen and (max-width: 859px) {
+@media screen and (max-width: 867px) {
   footer .formulario {
     display: grid;
     grid-template-areas: "label label" "input input";
